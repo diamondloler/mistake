@@ -1,0 +1,488 @@
+/****************************************************************** 重置样式 ****************************************************/
+body,
+dl,
+dt,
+dd,
+p,
+table,
+tr,
+th,
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 微软雅黑, Helvetica, Arial, sans-serif;
+    line-height: 1;
+    -webkit-text-size-adjust: none;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    font-size: 25px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+
+input,
+select,
+textarea,
+button {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+textarea {
+    overflow-y: auto;
+    resize: none;
+}
+
+a,
+input,
+textarea {
+    text-decoration: none;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+area {
+    outline: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+}
+
+input[type="text"],
+input[type="submit"] {
+    box-sizing: border-box;
+    border: 0;
+}
+
+* {
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+/****************************************************************** 重置样式 ****************************************************/
+/************************************************************ 小未过度动画库start *****************************************************/
+.xiaowei-fade-in-enter-active,
+.xiaowei-fade-in-leave-active {
+    -webkit-transition: all .3s cubic-bezier(.55, 0, .1, 1);
+    transition: all .3s cubic-bezier(.55, 0, .1, 1)
+}
+
+.xiaowei-fade-in-enter,
+.xiaowei-fade-in-leave-active {
+    opacity: 0;
+}
+
+/************************************************************ 小未过度动画库end *****************************************************/
+/************************************************************ 常用样式start *************************************************************/
+/* 定位 */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear:after { display: block; overflow: hidden; clear: both; height: 0; visibility: hidden; content: "." }
+
+/* 字体色 */
+.c63B504 {
+    color: #63B504;
+}
+
+.c999 {
+    color: #999;
+}
+
+.c444 {
+    color: #444;
+}
+
+.cfff {
+    color: #fff!important;
+}
+
+/* 背景色 */
+.bg-green {
+    background-color: #63B504
+}
+
+.bg-green-gradient {
+    background: linear-gradient(-30deg, rgba(73, 183, 89, 1), rgba(45, 167, 79, 1));
+}
+
+.bg-light-gray {
+    background-color: #34414D;
+}
+
+.bg-gray {
+    background-color: #2F3942;
+}
+
+/* 字体位置 */
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.vm {
+    vertical-align: middle
+}
+/* 内外边距 */
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt6 {
+    margin-top: 6px;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.mt70 {
+    margin-top: 70px;
+}
+
+.mt90 {
+    margin-top: 90px;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml25 {
+    margin-left: 25px;
+}
+
+.ml30 {
+    margin-left: 30px;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+.ml60 {
+    margin-left: 60px;
+}
+
+.mr8 {
+    margin-right: 8px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.mr15 {
+    margin-right: 15px;
+}
+
+.mr25 {
+    margin-right: 25px;
+}
+
+.mr30 {
+    margin-right: 30px;
+}
+
+.mr40 {
+    margin-right: 40px;
+}
+
+.mh20 {
+    margin: 20px 0;
+}
+
+.mw10 {
+    margin: 0 10px;
+}
+
+.mw15 {
+    margin: 0 15px;
+}
+
+.mw5 {
+    margin: 0 5px;
+}
+
+.mw25 {
+    margin: 0 25px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.pl30 {
+    padding-left: 30px;
+}
+
+.p40 {
+    padding: 40px;
+}
+
+.p0-10 {
+    padding: 0 10px;
+}
+
+.pl8 {
+    padding-left: 8px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pb30 {
+    padding-bottom: 30px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pt5 {
+    padding-top: 5px;
+}
+
+.pt30 {
+    padding-top: 30px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.pt80 {
+    padding-top: 80px;
+}
+
+.pt100 {
+    padding-top: 100px;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+.pl30 {
+    padding-left: 30px;
+}
+
+.pl25 {
+    padding-left: 25px;
+}
+
+.pr0 {
+    padding-right: 0;
+}
+
+.pr30 {
+    padding-right: 30px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+.ph10 {
+    padding: 10px 0
+}
+
+.ph20 {
+    padding: 20px 0
+}
+
+.pw20 {
+    padding: 0 20px;
+}
+
+.pw30 {
+    padding: 0 30px;
+}
+
+.pt40 {
+    padding-top: 40px;
+}
+
+.block-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 字体大小 */
+.f16 {
+    font-size: 16px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+/* 字体省略 */
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    word-break: keep-all;
+}
+
+/* 模型大小 */
+.circle-56 {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+}
+
+/* 显示 */
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+
+/* 光标 */
+.pointer {
+    cursor: pointer;
+}
+
+/* 宽度 */
+.w-full {
+    width: 100%;
+}
+
+
+/************************************************************ 常用样式end ***************************************************************/
