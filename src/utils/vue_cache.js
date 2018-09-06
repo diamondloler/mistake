@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     install: function (Vue, option) {
         var cache = {}
         
